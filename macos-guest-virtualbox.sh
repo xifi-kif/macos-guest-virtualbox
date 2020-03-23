@@ -13,10 +13,10 @@ function set_variables() {
 vm_name="macOS"                  # name of the VirtualBox virtual machine
 macOS_release_name="Catalina"    # install "HighSierra" "Mojave" or "Catalina"
 storage_size=80000               # VM disk image size in MB. Minimum 22000
-cpu_count=2                      # VM CPU cores, minimum 2
-memory_size=4096                 # VM RAM in MB, minimum 2048
+cpu_count=3                      # VM CPU cores, minimum 2
+memory_size=6144                 # VM RAM in MB, minimum 2048
 gpu_vram=128                     # VM video RAM in MB, minimum 34, maximum 128
-resolution="1280x800"            # VM display resolution
+resolution="1920x1080"            # VM display resolution
 
 # The following commented commands, when run on a genuine Mac,
 # may provide the values for NVRAM and other parameters required by iCloud,
